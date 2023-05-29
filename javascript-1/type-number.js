@@ -11,4 +11,14 @@ console.log(operacaoMatematica)
 
 // ponto flutuante
 
-con
+const numeroPontoFlututante = 3.3;
+const pontoFlutuanteSemZero = .5;
+
+const novaOperacao = primeiroNumero / numeroPontoFlututante;
+
+console.log(novaOperacao)
+
+// NaN -> Not a Number (não é um número)
+
+const alura = "Alura"
+console.log(alura * primeiroNumero)
